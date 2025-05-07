@@ -10,7 +10,7 @@ backend:
     openAuthoring: '{{message}}'
 
 
-logo_url: /source/img/favicon.jpg
+logo_url: source/img/favicon.jpg
 
 publish_mode: editorial_workflow
 
