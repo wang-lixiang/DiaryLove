@@ -10,7 +10,7 @@ backend:
     openAuthoring: '{{message}}'
 
 
-logo_url: /source/img/favicon.png
+logo_url: /source/img/favicon.jpg
 
 publish_mode: editorial_workflow
 
@@ -140,36 +140,3 @@ collections:
     folder: "source/_posts/2022"
     preview_path: "2022/{{filename}}/"
     <<: *common_col_conf
-  - name: "2021"
-    label: "2021"
-    folder: "source/_posts/2021"
-    preview_path: "2021/{{filename}}/"
-    <<: *common_col_conf
-  - name: "2020"
-    label: "2020"
-    folder: "source/_posts/2020"
-    preview_path: "2020/{{filename}}/"
-    <<: *common_col_conf
-  - name: "2019"
-    label: "2019"
-    folder: "source/_posts/2019"
-    preview_path: "2019/{{filename}}/"
-    <<: *common_col_conf
-  - name: "2018"
-    label: "2018"
-    folder: "source/_posts/2018"
-    preview_path: "2018/{{filename}}/"
-    <<: *common_col_conf
-  - name: "pages"
-    label: "Pages"
-    files:
-      - name: "friends"
-        label: "友链"
-        file: "source/friends/index.md"
-        preview_path: "friends/"
-        <<: *common_col_conf
-      - name: "about"
-        label: "关于"
-        file: "source/about/index.md"
-        preview_path: "about/"
-        <<: *common_col_conf
